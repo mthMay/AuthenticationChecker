@@ -1,6 +1,6 @@
 # AuthenticationChecker
 ### Description
-The Authentication Checker is a Python-based program designed to authenticate user credentials before granting access to the system. It allows users to sign up for an account with unique usernames and secure passwords, log in with their existing credentials, and even delete their accounts if they wish. The program ensures password security by enforcing strict rules and stores basic user information, such as name, age, address, and email.
+The Authentication Checker is a Python-based console program designed to authenticate user credentials before granting access to the system. It allows users to sign up for an account with unique usernames and secure passwords, log in with their existing credentials, and even delete their accounts if they wish. The program ensures password security by enforcing strict rules and stores basic user information, such as name, age, address, and email.
 
 ### Features
 • **User Registration**: Allows users to create a new account with unique usernames. Collects user details such as name, age, address, mobile number, nationality and email address.<br>
@@ -11,11 +11,11 @@ The Authentication Checker is a Python-based program designed to authenticate us
 • **User Data Storage**: Stores user information in a text file (userDetails.txt), allowing easy access for login and deletion features.<br>
 
 ### How to Run
-1. Clone the repository:
-   ```https://github.com/mthMay/AuthenticationChecker.git```
-2. Navigate to the project directory:
+1. Clone the repository:<br>
+   ```git clone https://github.com/mthMay/AuthenticationChecker.git```
+2. Navigate to the project directory:<br>
    ```cd AuthenticationChecker```
-3. Run the application:
+3. Run the application:<br>
    ```python3 main.py```
 
 **NOTE: Ensure Python 3 is installed on your system before running the application.**
